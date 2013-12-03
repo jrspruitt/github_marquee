@@ -14,7 +14,7 @@ clone this repo
 
 Be sure to force it as it'll complain.
 
-To adjust the start, change c in git\_marquee.py after the main if.
+To adjust the start, change c in github\_marquee.py after the main if.
 This will move it over c number of characters, which is 4 colums.
 
-You only get once chance that I can tell, to change it you'll need to delete the repo, and recreate it.
+You only get one chance that I can tell, to change it you'll need to delete the repo, and recreate it.

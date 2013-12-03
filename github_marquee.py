@@ -44,6 +44,7 @@ def commit(ts):
 		date = ts_to_date(ts+i)
 		p = Popen(['env','GIT_AUTHOR_DATE=%s' % date, 'git', 'commit', '-a', '-m', str(ts)], stdout=PIPE)
 		# This is here just to burn up some time as git might get overwhelmed.
+		# Can be reduced removed if your machine can handle it.
 		print p.stdout.read()
 		sleep(.05)
 
